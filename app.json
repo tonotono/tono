@@ -1,19 +1,19 @@
 {
-  "name": "LINE echo",
+  "name": "pre-todaystudy",
   "description": "Echo server for LINE BOT API",
-  "repository": "https://github.com/yuya-takeyama/line-echo",
+  "repository": "https://github.com/tonotono/tono.git",
   "keywords": ["line", "bot"],
   "env": {
     "LINE_CHANNEL_ID": {
-      "description": "Channel ID",
+      "description": "1463824575",
       "required": true
     },
     "LINE_CHANNEL_SECRET": {
-      "description": "Channel secret",
+      "description": "ec5f794ecc15551ac207c695ba785436",
       "required": true
     },
     "LINE_CHANNEL_MID": {
-      "description": "Channel MID",
+      "description": "u96ddfcabdb7818299a1ca0120afc7176",
       "required": true
     }
   },
