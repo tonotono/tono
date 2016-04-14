@@ -19,7 +19,7 @@ class App < Sinatra::Base
       endpoint_uri = 'https://trialbot-api.line.me/v1/events'
       content_json = request_content.to_json
 
-      RestClient.proxy = ENV['http://fixie:IApd3vt1WPpgPiu@velodrome.usefixie.com:80'] if ENV['http://fixie:IApd3vt1WPpgPiu@velodrome.usefixie.com:80']
+      RestClient.proxy = ENV['http://fixie:IApd3vt1WPpgPiu@velodrome.usefixie.com:80']
       RestClient.post(endpoint_uri, content_json, {
         'Content-Type' => 'application/json; charset=UTF-8',
         'X-Line-ChannelID' => ENV["1463824575"],
